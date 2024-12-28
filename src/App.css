@@ -1,0 +1,22 @@
+#root {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: #60686C;
+  border-radius: 10px;
+}
